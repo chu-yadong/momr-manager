@@ -10,7 +10,7 @@ com_dict = {}
 rec_dict = {}
 serial_run_flag = 0
 
-# 数据库存储结构
+# 数据库存储结构 这个以后会自动生成
 Sql_Save_Format = '''DateTime TEXT, Run_Time REAL, T_Reactor REAL, T_Radiator REAL, IR_I INTEGER, 
                     IR_T INTEGER,IR_S INTEGER, OD REAL, ST REAL, RPM INTEGER, AIR_T REAL, P1_T REAL,
                     P2_T REAL, P3_T REAL, ERR INTEGER'''
