@@ -319,7 +319,7 @@ class Momr(object):  # 定义 微型在线反应器 的串口总线类
         else:
             return self.sql_query("select * from {} where DateTime >= '{}' AND DateTime <= '{}'"\
                                   .format(self.sqlTableName, time_min, time_max))
-
+# 先注释掉
 '''
 if __name__ == '__main__':
     m1 = Momr('Momr1')
